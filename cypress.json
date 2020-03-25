@@ -1,0 +1,9 @@
+{
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "./cypress/reports/my-test-output.xml"
+  },
+  "video": false
+}
+
+
