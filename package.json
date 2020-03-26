@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "docker-compose up --exit-code-from cypress"
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",
