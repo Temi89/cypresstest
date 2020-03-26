@@ -11,3 +11,7 @@
 .idea/
 
 /yarn-error.log
+
+
+
+git push --set-upstream origin master
