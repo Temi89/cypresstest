@@ -4,16 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "lint": "eslint --ext .js,.jsx ./ -c ./.eslintrc.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "cypress-axe": "^0.5.3",
+    "@percy/cypress": "^2.3.1"
+  },
   "devDependencies": {
-    "@percy/cypress": "^2.3.1",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
     "axe-core": "^3.5.2",
     "cypress": "^4.2.0",
-    "cypress-axe": "^0.5.3",
     "mocha-multi-reporters": "^1.1.7",
     "mochawesome": "^5.0.0"
   }
